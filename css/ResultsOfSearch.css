@@ -1,0 +1,171 @@
+
+        html,body{
+            width: 100%;
+            min-height: 100%;
+            margin: 0;
+        }
+        html{
+            background-image: url(../img/SuccessSponsored/bg.png);
+            background-attachment: fixed;
+        }
+        body{
+            background-image: url("../img/ResultsOfSearch/litleBg.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+        .flex{
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+        }
+        .header .back{
+            width: 20vw;
+            height: 20vw;
+            max-width: 56px;
+            max-height: 56px;
+        }
+        .header .title{
+            width: 40vw;
+        }
+        #tag1, #tag2{
+            display: inline-block;
+            height: 20px;
+            line-height: 20px;
+            padding: 10px;
+            margin: 10px 20px ;
+        }
+        #tag1{
+            background: white;
+            border: 1px solid #dbdbdb;
+            color: #2c2c2c;
+        }
+        #tag2{
+            background: #f8e6d0;
+            border: 1px solid #e9d8c1;
+            color: #b2a08a;
+        }
+        .box{
+            overflow: hidden;
+        }
+        .box .item{
+            width: 50%;
+            float: left;
+            text-align: center;
+        }
+        .box .item img{
+            width: 80%;
+            height: 40vw;
+            border-radius: 25%;
+        }
+        .box .item div{
+            width: 60%;
+            height: 90px;
+            border: 4px solid #667f7d;
+            margin: 10px auto 20px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .nav{
+            text-align: center;
+            font-size: 10vw;
+        }
+        a{
+            color: inherit;
+            text-decoration: none;
+            margin: 0 4vw;
+        }
+        .active{
+            color: #424fac;
+            text-decoration: underline;
+        }
+        .squre{
+            width: 43vw !important;
+            border-radius: 6px;
+            padding: 10px 0;
+            border: 3px solid #4350ac;
+            color: #4350ac;
+            text-align: center;
+            margin: 20px 2vw;
+            font-size: 2vw;
+            box-sizing: border-box;
+            cursor: pointer;
+
+        }
+        .green{
+            border: 3px solid #679395;
+             color: #679395;
+        }
+        .hidden-pc{
+            display: none !important;
+        }
+        .circle {
+            display: inline-block;
+            width: .94vw;
+            height: .94vw;
+            border-radius: 50%;
+            background-color: white;
+            margin: .94vw -.5625vw .75vw .75vw;
+        }
+        .bg-grey{
+            background-color: #e6e6e6;
+        }
+        .bg-grey a{
+            position: relative;
+            margin: 0.5vw;
+            top: -.5vw;
+            text-decoration: underline;
+            font-size: 1.5vw;
+            color: black;
+            
+        }
+        .bg-grey a.active{
+            color: #669396;
+        }
+        
+        @media screen and (min-width: 750px){
+            
+            .hidden-sj{
+                display: none !important;
+            }
+            .hidden-pc{
+                display: block !important;
+             }
+            .box .item{
+                width: 33.33%;
+                float: left;
+                text-align: center;
+            }
+            .box .item img{
+                height: 26.664vw;
+                max-width: 372px;
+                max-height: 370px;
+            }
+            .nav{
+            text-align: right;
+            font-size: 16px;
+            
+            
+            }
+            a{
+                margin: 0 10px;
+            }
+            .nav img{
+                width: 16px;
+            }
+            .label{
+                display: flex;
+                justify-content: space-between;
+            }
+            .label>div{
+                width: 50%;
+                /* padding: 10px; */
+            }
+            .label div{
+                width: 95%;
+                font-size: 16px;
+            }
+            .label>div:first-of-type div{
+                font-size: 2vw;
+            }
+        }

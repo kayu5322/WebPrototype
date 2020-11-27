@@ -1,0 +1,127 @@
+
+           html,body{
+            width: 100%;
+            min-height: 100%;
+            margin: 0;
+        }
+        html{
+            background-image: url(../img/SuccessSponsored/bg.png);
+            background-attachment: fixed;
+        }
+        body{
+            background-image: url("../img/ResultsOfSearch/litleBg.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+        .flex{
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+        }
+        .header .back{
+            width: 20vw;
+            height: 20vw;
+            max-width: 56px;
+            max-height: 56px;
+        }
+        header img{
+            width: 15vw !important;
+            max-width: 60px;
+        }
+        .pl img, .pr img{
+            height: 35vw;
+        }
+        .squre{
+            width: 80vw;
+            padding: 3.75vw 1.875vw;
+            background: #97d3c5;
+           margin: 8vw;
+            font-size: 2vw;
+            box-sizing: border-box;
+            text-align: center;
+            cursor: pointer;
+        }
+        .squre>div{
+            font-size: 4vw;
+
+        }
+        .header{
+            text-align: left;
+        }
+        header{
+            font-size: 8vw;
+            font-weight: bold;
+            text-align: center;
+        }
+        .hidden-pc{
+            display: none;
+        }
+        .pl,.pr{
+            width: 50%;
+            float: left;
+            text-align: center;
+        }
+        .circle {
+            display: inline-block;
+            width: .94vw;
+            height: .94vw;
+            border-radius: 50%;
+            background-color: white;
+            margin: .94vw -.5625vw .75vw .75vw;
+        }
+        .bg-grey{
+            background-color: #e6e6e6;
+        }
+        .bg-grey a{
+            position: relative;
+            margin: 0.5vw;
+            top: -.5vw;
+            text-decoration: underline;
+            font-size: 1.5vw;
+            color: black;
+            
+        }
+        .bg-grey a.active{
+            color: #669396;
+        }
+        @media screen and (min-width: 750px){
+            
+            .hidden-sj{
+                display: none !important;
+            }
+            .hidden-pc{
+                display: block !important;
+             }
+             header{
+                 position: absolute;
+                 left: 50%;
+                 transform: translateX(-50%);
+                 font-size: 3.5vw !important;
+                 line-height: 6vw;
+                 margin: 0 2vw;
+             }
+             header img{
+                 width: 6vw !important;
+                 max-width: 60px;
+             }
+             .pl{
+                 width: 33vw;
+                 float: left;
+             }
+             .pr{
+                width: 33vw;
+                 float: right;
+             }
+             .pl img, .pr img{
+                 height: 25vw;
+             }
+
+        }
+        a{
+            color: inherit;
+        }
+
+        .labelA {
+        font-size:23px;
+        }
